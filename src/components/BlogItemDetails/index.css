@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.blog-info {
+  margin: auto;
+  /* border-color: aqua;
+  border-style: solid; */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-details-title {
+  color: black;
+  align-self: flex-start;
+  font-size: 20px;
+}
+.author-details {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.author-pic {
+  align-self: flex-start;
+  margin-right: 10px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+.blog-image {
+  border-radius: 10px;
+  align-self: flex-start;
+  /* text-align: center; */
+  height: 300px;
+  width: 100%;
+}
+.blog-content {
+  display: flex;
+  justify-content: flex-start;
+}

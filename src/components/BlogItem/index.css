@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.each-list {
+  /* padding: 10px; */
+  /* border-color: aquamarine;
+  border-style: solid; */
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .each-list {
+    flex-direction: column;
+  }
+}
+.details-cont {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  height: 150px;
+  width: 200px;
+}
+.topic {
+  font-size: 18px;
+  text-align: flex-start;
+  color: grey;
+  border-bottom: none;
+}
+.title {
+  font-size: 20px;
+  text-align: flex-start;
+}
+.avatar {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.profile-name {
+  display: flex;
+  flex-direction: row;
+}
